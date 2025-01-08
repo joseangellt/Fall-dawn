@@ -1,0 +1,411 @@
+@font-face{
+    font-family: 'UnDotum';
+    src: url(Fuentes\UnDotum\UnDotum.ttf);
+}
+
+
+@font-face{
+    font-family: 'PSYCHO POETRY';
+    src: url(Fuentes\PSYCHO.TTF);
+}
+
+
+
+/*--------------------------- ESTILOS DE LA PAGINA PRINCIPAL------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Undotum';
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    padding: 125px;
+    background-color: black;
+    color: #fff;    
+    position: relative;
+        
+}
+
+ div img{
+    margin: 0;
+    float:left;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    border-radius: 100px;
+    
+}
+
+
+
+header h1{
+    width: 370px;
+    font-size: 250%;
+    font-weight: 250%;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    left: 850px;
+    top:115px;
+    color: #fff;
+
+}
+
+h1:hover{
+    color: rgba(209, 12, 12, 0.877);
+}
+
+header nav{
+    float: right;
+    font-size: 25px;
+    a{
+        align-items: center;
+       text-decoration: none;
+       font-weight: bolder;
+       color: #fff;
+       padding: 10px;
+       margin: 25px;
+    }
+
+    a:hover{
+        border: 5px solid rgba(209, 12, 12, 0.877);
+        border-radius: 25px;
+        transition: 0.5s ;
+        
+    }
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height:800px;
+    background-image: url("imageBlckAndWht.jpg");
+    margin: 85px, 0px, 0px, 100px;
+
+    .actions{
+        position:inherit;
+        display: block;
+        width: 550px;
+        height: 100px;
+        border: 5mm ridge;
+        margin-bottom: 45px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        color : #fff;
+        top: 200px;
+        left: 200px;
+        border-radius: 50px;
+        text-shadow: 1px 1px 4px black;
+    }
+
+    .actions:hover{
+        border-radius: 0px;
+        border-color: #dd6a9a;
+        color:  #fa9c62;
+        transition:0.5s;
+    }
+
+      #logoScreen{
+        width: 500px;
+        height: 500px;
+        float: right;
+        position: inherit;
+        bottom: 300px;
+        right: 200px;
+        border-radius: 500px;
+    } 
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    color: #fff;
+    p{
+        position:absolute;
+        font-weight: bold;
+        margin:85px 700px;
+    }
+}
+
+
+/*------------------------------ESTILOS DE LA PÁGINA DE REGISTRO-----------------------*/
+ 
+#registrarse{
+    font-family: 'UnDotum';
+    background-image:url("image4.jfif") ;
+    color: #fff;
+    text-shadow: 1px 1px 10px black;
+    height: 750px;
+
+    #registrarseForm{
+        position: inherit;
+        width: 870px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        padding: 60px;
+        
+    }
+
+    .labelstyle{
+        margin: 10px;
+        
+    }
+    
+    .inputstyle{
+        width: 500px;
+        height: 35px;
+        background-color: #ffffffb0;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    #sexo{
+        width: 135px;
+    }
+
+    #iniciarSesion{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        align-items: center;
+        position: inherit;
+        bottom: 500px;
+        text-decoration: none;
+    }
+
+    .linkIniciarSesion{
+        margin-top: 10px;
+        color:#fff;
+        
+    }
+
+    .linkIniciarSesion:hover{
+        color: rgb(238, 189, 28);
+    }
+
+    .enviarRegistro{
+        font-size: 25px;
+        position: absolute;
+        left: 950px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: #ffffffb0;
+    }
+
+}
+
+#registroFooter{
+    position:inherit;
+
+}
+
+/*------------ESTILOS DE LA PÁGUNA DE INICIO----------------------*/
+
+.login{
+    position: relative;
+    background-image: url("image5.jfif");
+    background-size: 100%;
+    text-shadow: 1px 1px 2px black;
+
+    #loginForm{
+        position: inherit;
+        width: 870px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        padding: 60px;
+    }
+
+    .labelstyle{
+        margin: 10px;
+    }
+
+    .inputstyle{
+        width: 500px;
+        height: 35px;
+        background-color: #ffffffb0;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    #registrate{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        align-items: center;
+        position: inherit;
+        bottom: 500px;
+        text-decoration: none;
+    }
+
+    .linkRegistrarse{
+        position: inherit;
+        width: 200px;
+        margin-top: 10px;
+        color:#fff; 
+        left: 945px
+    }
+
+    .linkRegistrarse:hover{
+        color: #81b026;
+        background-color: #ffffff3f;
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+    .Iniciar{
+
+        font-size: 25px;
+        position: absolute;
+        bottom: 350px;
+        left: 200px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: #ffffffb0;
+        
+    }
+
+}
+
+/*-----------------ESTILOS DE "SOBRE NSOOTROS"-----------------------------*/
+
+#aboutUs{
+    background-image: url("image 6.png");
+    background-size: 40%;
+
+
+    .parrafo{
+        width: 900px;
+        height: 720px;
+        background-color:#fdfcfca9;
+        font-size: 32px;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        padding: 25px;
+        text-align: justify;
+    }
+}
+
+/*--------------------ESTILOS DE REDES SOCIALES------------------------------*/
+
+#socialMedia{
+    background-image: url("image7.jfif");
+    background-size: cover;
+    height: 950px;
+
+    #noSocialMedia{
+        position: absolute;
+        left: 100PX;
+        top: 50px;
+        height: 600px;
+    }
+
+    P{
+        font-family: 'PSYCHO POETRY';
+        font-size: 80px;
+        color: rgba(209, 12, 12, 0.877) ;
+        position: inherit;
+        top: 800px;
+        margin-left: 80px;
+        text-shadow: 1px 1px 5px red;
+    }
+}
+
+
+/*------------------------ESTILOS DE LA PÁGINA DE ROPA-----------------*/
+
+body{
+    position: relative;
+    min-height: 100vh;
+    margin:0;
+    width: 100%;
+}
+
+     #clothScroll{
+        position: static;
+        background-image: none;
+        height: 100%;
+     
+
+        .clothView{
+            position: inherit;
+            left: 400px;
+            top: 100px;
+            height: 500px;
+            width: 300px;
+            margin: 80px;
+            background-color: #fdfcfc54;
+    
+        }
+    
+        #firstView{
+            background-image: url("image8.jfif");
+            background-size: contain;
+            position: static;
+            left: 0px;
+            top: 0px;
+            height: 800px;
+            width: 100%;
+            padding: 50px 0 0 400PX;
+        }
+    
+        #secondView{
+            background-image: url("Image9.jfif");
+            background-size: contain;
+            position: static;
+            height: 800px;
+            width: 100%;
+            padding: 0 0 0 400PX;
+        }
+
+        #thirdView{
+            background-image: url("image10.jpg");
+            background-size: 50%;
+            position: static;
+            height: 800px;
+            width: 100%;
+            padding: 0 0 0 400PX;
+        }
+
+        #fourthView{
+            background-image: url("image11.jpg");
+            background-size: contain;
+            position: static;
+            height: 800px;
+            width: 100%;
+            padding: 0 0 0 400PX;
+        }
+
+
+
+} 
+
+ #stickyHeader{
+    position: sticky;
+    top: 0;
+ }
+
+footer.sticky{
+    position: sticky;
+    bottom: 0;
+}
